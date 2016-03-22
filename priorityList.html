@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		
+		<link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+		
+		<title>Ideas List</title>
+		
+		<link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css"><!--JQuery UI stylesheet-->
+		<link rel="stylesheet" href="css/priorityList.css" type="text/css"><!--my CSS-->
+		
+</head>
+<body>
+	<h1> A list of ideas..the better ones at the top, getting progressively worse as you go down</h1>
+	
+	<button id="addIdea">Add an idea</button><!--add an idea button opens add idea dialog-->
+	<div id="test"></div>
+	<div id="addIdeaDialog" title="Idea!!!">
+		
+				<label for="ideaTitle">Idea Title:</label><br>
+				<input type="text" name="ideaTitle" id="ideaTitle">
+			<br>
+				<label for="ideaDescription">Idea Description:</label><br>
+				<input type="text" name="ideaDescription" id="ideaDescription">
+			<br>
+				<label for="rating">How good is this idea?</label><br>
+				<select name="rating" id="ideaRating">
+					
+ 					<option value="10">10-OMG I am going to be rich</option>
+  					<option value="9">9</option>
+  					<option value="8">8</option>
+ 					<option value="7">7</option>
+ 					<option value="6">6</option>
+  					<option value="5">5-neither here nor there</option>
+ 					<option value="4">4</option>
+ 					<option value="3">3</option>
+ 					<option value="2">2</option>
+ 					<option value="1" selected>1-rubbish</option>
+ 					
+ 				</select>
+	</div><!--end of dialog-->
+	
+	<ol id="list">
+	
+	
+	</ol>
+<script src="js/jquery.js"></script>
+<!-- jQuery library -->
+<script src="js/jquery-ui.min.js"></script> 
+<!-- jQuery UI -->
+<script src="js/priorityList.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+h1 { font-size: 1.2em; line-height: 1.1em; padding-top: 1.9em; }
+
+body{
+	background-image: url('../notebook.jpg'); 
+	background-repeat: no-repeat; 
+	
+	width:550px; 
+	margin-left:8em; 
+	font-family: Arial, Helvetica;
+	margin-top: 5em; 
+}
+
+p.description {
+	margin: 0.3em 0 0.6em 0; 
+	font-size: 0.8em;
+	line-height: 0.8;	
+}
+ol#list {
+	position: relative;
+	margin-top: 3em; 
+}
+span.rating {
+	color: red; 
+	position: absolute; 
+	right: 6em;  
+}
+
+span.delete{
+	font-family: 'Arial', Helvetica; 
+	font-size: 0.7em;
+	color:red; 
+	position: absolute; 
+	right: 1em; 
+	margin-top:0.2em;
+	cursor:pointer; 
+}
+
+/**add an idea button positioning**/
+
+button#addIdea.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-icon-primary {
+	float:right;
+	margin-top:-1em; 
+}
+
+/*main dialog area styling*/
+div.ui-dialog {
+	padding:5em; 
+	padding-top: 9em; 
+	background-image: url('../sun.png'); 
+	background-repeat: no-repeat; 
+	text-align: center;
+}
+.ui-widget-content { border: none; background:none; }
+
+select#ideaRating {width: 5.3em; }
+
+/**dialog titlebar styling**/
+div.ui-dialog-titlebar {
+	width: 5em;
+	text-align: center;
+	margin: auto;
+}
+.ui-widget-header{ background: none; border: none; }
+
+/**submit button alignment**/
+div.ui-dialog-buttonset {margin-bottom: 2.6em;}
+
+.ui-dialog .ui-dialog-buttonpane { padding: 0; margin-top:0;}
+
+.ui-dialog .ui-dialog-buttonpane button { margin:0; }
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{
+	float: none; 
+	text-align: center; 
+}
+
+.ui-button-text-only .ui-button-text { padding:0.2em; }
+
+/*submit button styling*/
+button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only {
+	color: red;
+	border-color: red;
+	background-color: yellow;
+	border-width: 2px;
+}
+
+/*close dialog button styling*/
+span.ui-button-icon-primary.ui-icon.ui-icon-closethick { width: 20px; height:20px; }
+
+.ui-widget-header .ui-icon {
+
+	background-image: url("../redClose.gif")!important;
+	background-position: left top !important;
+	background-size: 20px;
+}
+
+.ui-button-icon-only .ui-icon {
+	margin-left:-10px; 
+	margin-top:-10px; 
+}
+
